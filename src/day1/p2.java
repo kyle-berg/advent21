@@ -20,7 +20,7 @@ public class p2 {
             depths.add(scan.nextInt());
         }
 
-        for (int i = 3; i < 2000; i++) {
+        for (int i = 3; i < depths.size(); i++) {
             window1 = depths.get(i - 1) + depths.get(i - 2) + depths.get(i - 3);
             window2 = depths.get(i) + depths.get(i - 1) + depths.get(i - 2);
 
