@@ -31,5 +31,6 @@ public class p2 {
         System.out.println("Horizontal: " + horiz);
         System.out.println("Depth: " + depth);
         System.out.println(horiz*depth);
+        scan.close();
     }
 }

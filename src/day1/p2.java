@@ -29,6 +29,7 @@ public class p2 {
             }
         }
         System.out.println(increases);
+        scan.close();
     }
 }
 
